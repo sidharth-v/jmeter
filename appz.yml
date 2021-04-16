@@ -1,1 +1,24 @@
+app:
+    name: JMETER
+    code: jmeter
+    notify: aborra@ecloudcontrol.com
 
+build:
+    version: 0.1
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: jmeter-5.3
+
+deploy:
+    context: anushab7/DEV
+    replicas: 1
+    port:
+    - 8080
+
+properties:
+    IPADDRESSTOCHECK: anushab7-dev-springboot-web-0-4.32d430c5.lowtouch.cloud/
+    SAMPLERPATH: accounts/find/all
+    PORTTOUSE: 8080
+    TESTPLAN_FILENAME: testplan.jmx
+    revision: 13
