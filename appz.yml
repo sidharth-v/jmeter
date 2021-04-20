@@ -15,6 +15,7 @@ deploy:
     replicas: 1
     port:
     - 8080
+    - 443
 
 properties:
     IPADDRESSTOCHECK: anushab7-dev-springboot-web-0-4.32d430c5.lowtouch.cloud/
