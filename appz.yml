@@ -14,8 +14,7 @@ deploy:
     context: anushab7/DEV
     replicas: 1
     port:
-    - 8080
-    - 443
+    - 80
 
 properties:
     IPADDRESSTOCHECK: http://springboot-web-0-4:8080
