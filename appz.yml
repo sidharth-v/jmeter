@@ -17,7 +17,7 @@ deploy:
     - 80
 
 properties:
-    IPADDRESSTOCHECK: http://springboot-web-0-4:8080
+    IPADDRESSTOCHECK: springboot-web-0-4
     SAMPLERPATH: accounts/find/all
     PORTTOUSE: 8080
     TESTPLAN_FILENAME: testplan.jmx
