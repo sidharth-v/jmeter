@@ -18,7 +18,7 @@ deploy:
     - 443
 
 properties:
-    IPADDRESSTOCHECK: anushab7-dev-springboot-web-0-4.32d430c5.lowtouch.cloud/
+    IPADDRESSTOCHECK: http://springboot-web-0-4/
     SAMPLERPATH: accounts/find/all
     PORTTOUSE: 8080
     TESTPLAN_FILENAME: testplan.jmx
