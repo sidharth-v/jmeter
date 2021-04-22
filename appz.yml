@@ -15,6 +15,11 @@ deploy:
     replicas: 1
     port:
     - 80
+volumes:
+  - claim: jmeter-data
+    mount: /appz/log/results
+    name: data
+    size: 10Gi
 
 properties:
     JMETER_APP_HOST: springboot-web-0-4
