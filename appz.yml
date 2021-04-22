@@ -12,6 +12,7 @@ build:
 
 deploy:
     context: anushab7/DEV
+    type: statefulset
     replicas: 1
     port:
     - 80
