@@ -26,4 +26,4 @@ properties:
     RAMP_TIME: 100
     THREAD_DELAY: 0
     APP_PROTOCOL: http
-    revision: 14
+    revision: 15
