@@ -20,7 +20,7 @@ properties:
     APP_HOST: springboot-web-0-4
     APP_PORT: 8080
     TEST_NAME: ACCOUNTS_READ
-    TESTPLAN_FILENAME: testplan.jmx
+    TESTPLAN_FILENAME: Springboot-PSQL-v4.jmx
     LOOP_COUNT: 10
     THREAD_COUNT: 100
     RAMP_TIME: 100
