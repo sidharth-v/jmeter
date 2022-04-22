@@ -32,4 +32,4 @@ properties:
     JMETER_RAMP_TIME: 100
     JMETER_THREAD_DELAY: 0
     JMETER_APP_PROTOCOL: http
-    revision: 17
+    revision: 18
