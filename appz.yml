@@ -16,6 +16,7 @@ deploy:
     replicas: 1
     port:
     - 80
+    - 9270
 volumes:
   - claim: jmeter-data
     mount: /appz/log/results
