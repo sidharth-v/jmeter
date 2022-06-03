@@ -24,13 +24,12 @@ volumes:
     size: 10Gi
 
 properties:
-    JMETER_APP_HOST: springboot-web-pgsql-0-4
-    JMETER_APP_PORT: 8080
-    TEST_NAME: ACCOUNTS_READ
+    JMETER_APP_HOST: neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud
+    JMETER_THINK_TIME: 300
+    JMETER_USERS_COUNT: 1
+    JMETER_THREAD_DURATION: 180
+    JMETER_RAMP_TIME: 1
     TESTPLAN_FILENAME: SpringBoot.jmx
-    JMETER_LOOP_COUNT: 1000
-    JMETER_THREAD_COUNT: 50
-    JMETER_RAMP_TIME: 100
-    JMETER_THREAD_DELAY: 0
-    JMETER_APP_PROTOCOL: http
+    TEST_INTERVAL: 2
+    TEST_NAME: ACCOUNTS_READ
     revision: 27
