@@ -32,4 +32,4 @@ properties:
     TESTPLAN_FILENAME: SpringBoot.jmx
     TEST_INTERVAL: 2
     TEST_NAME: ACCOUNTS_READ
-    revision: 27
+    revision: 28
